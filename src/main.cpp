@@ -152,6 +152,7 @@ void setup()
   pinMode(LED_PW, OUTPUT);
   pinMode(LED_AL, OUTPUT);
   pinMode(LED_RUN, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
 
   door_status_func();
   water_status_func();

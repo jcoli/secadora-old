@@ -169,9 +169,9 @@ void program_1_cycle(){
         digitalWrite(OUHT1, HIGH);
         digitalWrite(LED_HT, LOW);
     
-    }else{
-        Serial.println("else temp");
-        digitalWrite(OUHT1, LOW);
+    }else if(tempProb1<(temp_p*delta_3_temp)){
+        // Serial.println("else temp");
+        digitalWrite(OUHT1,LOW);
         digitalWrite(LED_HT, HIGH);
         // digitalWrite(OUHT2, LOW);
     }

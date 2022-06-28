@@ -126,6 +126,7 @@ void display_on(){
         delay(pauseBetweenNotes);                          // delay for the while
         noTone(BUZZER_PIN);                                 // stop the tone playing:
     }
+    Serial.println("display 0n");
     delay(2000);
     page0.show();
     if (door_status){

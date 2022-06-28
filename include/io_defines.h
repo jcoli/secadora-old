@@ -20,7 +20,7 @@ Mega2560 - Dryer
 #define DHT_PIN 2
 
 //Buzzer
-#define BUZZER_PIN 6
+#define BUZZER_PIN 6 
 
 //DS18B20 - OneWire
 #define ONE_WIRE_BUS 3
