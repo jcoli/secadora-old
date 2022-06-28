@@ -54,8 +54,11 @@ void readValues(){
   tempProb2 = sensors_ds18b20.getTempC(Probe02);
   hum_dht11 = dht.readHumidity();
   temp_dht11 = dht.readTemperature();
-  if (tempProb1>100){
-
+  if ((tempProb1>100) || (tempProb1<0)){
+      tempProb1 = temp_dht11;
+  }
+  if ((tempProb2>100)  || (tempProb2<0)){
+      tempProb2 = temp_dht11;
   }
   
   

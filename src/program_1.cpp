@@ -124,13 +124,9 @@ void program_1_cycle(){
             display_start();
             program_0_begin();
             program_0_cycle();
-
-
-           
               
         }else if(hum_dht11>(hum_p*delta_hum)){
             // Serial.println("hum_dht11>(hum_p*delta_hum)");
-              
             time_finish_p1 = millis();
             time_wait_hum_p1 = millis();
             digitalWrite(OUPT2, LOW);

@@ -166,40 +166,7 @@ void setup()
     digitalWrite(LED_AL, LOW);
   }
 
-  // digitalWrite(LED_PW, HIGH);
-  // delay(200);
-  // digitalWrite(LED_AL, HIGH);
-  // delay(200);
-  // digitalWrite(LED_RUN, HIGH);
-  // delay(200);
-  // digitalWrite(LED_PT, HIGH);
-  // delay(200);
-  // digitalWrite(LED_HT, HIGH);
-  // delay(200);
-
-  // digitalWrite(LED_PW, LOW);
-  // delay(200);
-  // digitalWrite(LED_AL, LOW);
-  // delay(200);
-  // digitalWrite(LED_RUN, LOW);
-  // delay(200);
-  // digitalWrite(LED_PT, LOW);
-  // delay(200);
-  // digitalWrite(LED_HT, LOW);
-  // delay(200);
   
-  // digitalWrite(OUPS1, HIGH);
-  // digitalWrite(OUPT1, HIGH);
-  // digitalWrite(OUPT2, HIGH);
-  
-  // digitalWrite(OUHT1, HIGH);
-  // digitalWrite(OUCL1, HIGH);
-  // digitalWrite(OUCL2, HIGH);
-  // digitalWrite(OUCL3, HIGH);
-  // digitalWrite(OULI1, HIGH);
-  // digitalWrite(OULI2, HIGH);
-  // digitalWrite(OULI3, HIGH);
-  // delay(5000);
   
  
   start_init = false;
